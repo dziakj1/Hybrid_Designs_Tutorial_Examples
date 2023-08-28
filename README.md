@@ -31,3 +31,5 @@ The Hybrid Experimental Design. Behavior Research Methods.
 | | Analyze_Simulated_Data_Hybrid_SMART_MRT.sas | 
 | | smart-mrt-results.pdf |
 
+
+Thank you to Jamie Yap and Lauren Zimmermann for their very helpful feedback on this project.
