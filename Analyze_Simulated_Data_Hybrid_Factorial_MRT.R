@@ -11,13 +11,23 @@ distal_outcome_model <- lm(formula = final_kg_lost ~ is_female +
                              coaching * meal,
                            data=person_level)
 print(summary(distal_outcome_model))
+# Note:  The lm() function only gives you the ordinary model-based
+# standard error estimate.  You can instead optionally get a robust
+# (sandwich) standard error estimate from geeglm:
+# distal_outcome_model <- geeglm(formula = final_kg_lost ~ is_female + 
+#                                  baseline_bmi_centered + 
+#                                  coaching * meal,
+#                                family=gaussian,
+#                                data=person_level,
+#                               id=ID)
 
 # Read the simulated occasion-level data for proximal outcome analysis
 occasion_level <- read.csv("Simulated_Data_Hybrid_Factorial_MRT_occasion_level.csv")
 print(dim(occasion_level))
 print(head(occasion_level))
 print(summary(occasion_level))
-# Fit analysis model for proximal outcome
+# Fit analysis model for proximal outcome. Now we have clustered 
+# data so we have to use GEE or a similar approach.
 gee_proximal <- geeglm(formula = proximal_outcome ~ is_female + 
                        baseline_bmi_centered + 
                        A * coaching * meal,
