@@ -28,6 +28,6 @@ The Hybrid Experimental Design. Behavior Research Methods.
 | Hybrid SMART-MRT | Simulated_Data_Hybrid_SMART_MRT_occasion_level.csv | 
 | | Simulated_Data_Hybrid_SMART_MRT_person_level.csv | 
 | | Analyze_Simulated_Data_Hybrid_SMART_MRT.R | 
+| | Analyze_Simulated_Data_Hybrid_SMART_MRT.sas | 
 | | smart-mrt-results.pdf |
-| | Analyze_Simulated_Data_Hybrid_SMART_MRT.R | 
 
