@@ -25,7 +25,7 @@ The Hybrid Experimental Design. Behavior Research Methods.
 | | Analyze_Simulated_Data_Hybrid_Factorial_MRT.R | 
 | | Analyze_Simulated_Data_Hybrid_Factorial_MRT.sas | 
 | | factorial-mrt-results.pdf | 
-| | Hybrid SMART-MRT | Simulated_Data_Hybrid_SMART_MRT_occasion_level.csv | 
+| Hybrid SMART-MRT | Simulated_Data_Hybrid_SMART_MRT_occasion_level.csv | 
 | | Simulated_Data_Hybrid_SMART_MRT_person_level.csv | 
 | | Analyze_Simulated_Data_Hybrid_SMART_MRT.R | 
 | | smart-mrt-results.pdf |
